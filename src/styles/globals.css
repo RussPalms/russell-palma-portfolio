@@ -86,6 +86,13 @@ h6 {
 @layer utilities {
 	font-family: "Poppins", sans-serif;
 
+	:root {
+		--black: #333;
+		--black2: #333;
+		--white: #fff;
+		--white2: #fff;
+	}
+
 	.dark {
 		--black: #fff;
 		--black2: #444;
