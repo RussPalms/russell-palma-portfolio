@@ -7,6 +7,7 @@ import Projects from "./Projects";
 import Services from "./Services";
 import Testimonials from "./Testimonials";
 import Link from "next/link";
+import Image from "next/image";
 
 function Portfolio() {
 	// const [isOpen, setIsOpen] = useState(true);
@@ -206,38 +207,58 @@ function Portfolio() {
 								</Link>
 
 								<ul className="socialMedia">
-									<li>
-										<a href="#">
-											<i
-												className="fa fa-facebook"
-												aria-hidden="true"
-											></i>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<i
-												className="fa fa-instagram"
-												aria-hidden="true"
-											></i>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<i
-												className="fa fa-linkedin"
-												aria-hidden="true"
-											></i>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<i
-												className="fa fa-twitter"
-												aria-hidden="true"
-											></i>
-										</a>
-									</li>
+									<Link
+										href="https://www.facebook.com/PinoyWakeboarder"
+										passHref
+									>
+										<li>
+											<a href="#">
+												<i
+													className="fa fa-facebook"
+													aria-hidden="true"
+												></i>
+											</a>
+										</li>
+									</Link>
+									<Link
+										href="https://www.instagram.com/rpalmpinoy/"
+										passHref
+									>
+										<li>
+											<a href="#">
+												<i
+													className="fa fa-instagram"
+													aria-hidden="true"
+												></i>
+											</a>
+										</li>
+									</Link>
+									<Link
+										href="https://www.linkedin.com/in/russell-palma-6b9700b9/"
+										passHref
+									>
+										<li>
+											<a href="#">
+												<i
+													className="fa fa-linkedin"
+													aria-hidden="true"
+												></i>
+											</a>
+										</li>
+									</Link>
+									<Link
+										href="https://twitter.com/rPalmPinoy"
+										passHref
+									>
+										<li>
+											<a href="#">
+												<i
+													className="fa fa-twitter"
+													aria-hidden="true"
+												></i>
+											</a>
+										</li>
+									</Link>
 								</ul>
 							</div>
 						</section>
@@ -373,9 +394,13 @@ function Portfolio() {
 									passHref
 								>
 									<div className="workBx">
-										<div className="imgBx">
-											<img src="https://links.papareact.com/9xl" />
-										</div>
+										{/* <div className="imgBx"> */}
+										<Image
+											className="object-contain"
+											layout="fill"
+											src="https://links.papareact.com/9xl"
+										/>
+										{/* </div> */}
 										<div className="textBx">
 											<h3>Spotify</h3>
 										</div>
@@ -387,7 +412,11 @@ function Portfolio() {
 								>
 									<div className="workBx">
 										<div className="imgBx">
-											<img src="https://logos-world.net/wp-content/uploads/2020/04/Netflix-Logo-700x394.png" />
+											<Image
+												className="object-contain"
+												layout="fill"
+												src="https://logos-world.net/wp-content/uploads/2020/04/Netflix-Logo-700x394.png"
+											/>
 										</div>
 										<div className="textBx">
 											<h3>Netflix</h3>
@@ -400,7 +429,11 @@ function Portfolio() {
 								>
 									<div className="workBx">
 										<div className="imgBx">
-											<img src="http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG" />
+											<Image
+												className="object-contain"
+												layout="fill"
+												src="http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG"
+											/>
 										</div>
 										<div className="textBx">
 											<h3>Amazon</h3>
@@ -413,7 +446,11 @@ function Portfolio() {
 								>
 									<div className="workBx">
 										<div className="imgBx">
-											<img src="https://assets.turbologo.com/blog/en/2019/10/19084944/youtube-logo-illustration.jpg" />
+											<Image
+												className="object-contain"
+												layout="fill"
+												src="https://assets.turbologo.com/blog/en/2019/10/19084944/youtube-logo-illustration.jpg"
+											/>
 										</div>
 										<div className="textBx">
 											<h3>YouTube</h3>
@@ -426,7 +463,11 @@ function Portfolio() {
 								>
 									<div className="workBx">
 										<div className="imgBx">
-											<img src="https://assetshuluimcom-a.akamaihd.net/h3o/facebook_share_thumb_default_hulu.jpg" />
+											<Image
+												className="object-contain"
+												layout="fill"
+												src="https://assetshuluimcom-a.akamaihd.net/h3o/facebook_share_thumb_default_hulu.jpg"
+											/>
 										</div>
 										<div className="textBx">
 											<h3>Hulu</h3>
@@ -438,9 +479,13 @@ function Portfolio() {
 									passHref
 								>
 									<div className="workBx">
-										<div className="imgBx">
-											<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" />
-										</div>
+										{/* <div className="imgBx"> */}
+										<Image
+											className="object-contain"
+											layout="fill"
+											src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+										/>
+										{/* </div> */}
 										<div className="textBx">
 											<h3>WhatsApp</h3>
 										</div>
@@ -452,7 +497,11 @@ function Portfolio() {
 								>
 									<div className="workBx">
 										<div className="imgBx">
-											<img src="https://repository-images.githubusercontent.com/252413723/e6f28180-8882-11ea-9e76-78d72dfa2af0" />
+											<Image
+												className="object-contain"
+												layout="fill"
+												src="https://repository-images.githubusercontent.com/252413723/e6f28180-8882-11ea-9e76-78d72dfa2af0"
+											/>
 										</div>
 										<div className="textBx">
 											<h3>Sanity Blog CMS</h3>
@@ -466,7 +515,11 @@ function Portfolio() {
 								>
 									<div className="workBx">
 										<div className="imgBx">
-											<img src="https://ecstatic-leavitt-a2e426.netlify.app/_next/static/images/logo-dc45e16445beb0dd598e41ae68c69c61.svg" />
+											<Image
+												className="object-contain"
+												layout="fill"
+												src="https://ecstatic-leavitt-a2e426.netlify.app/_next/static/images/logo-dc45e16445beb0dd598e41ae68c69c61.svg"
+											/>
 										</div>
 										<div className="textBx">
 											<h3>Startup Landing</h3>
@@ -475,9 +528,13 @@ function Portfolio() {
 								</Link>
 								<Link href="https://nervous-ramanujan-132263.netlify.app">
 									<div className="workBx">
-										<div className="imgBx">
-											<img src="https://nervous-ramanujan-132263.netlify.app/static/media/svg-3.5f11287c.svg" />
-										</div>
+										{/* <div className="imgBx"> */}
+										<Image
+											className="object-contain"
+											layout="fill"
+											src="https://nervous-ramanujan-132263.netlify.app/static/media/svg-3.5f11287c.svg"
+										/>
+										{/* </div> */}
 										<div className="textBx">
 											<h3>Dolla</h3>
 										</div>

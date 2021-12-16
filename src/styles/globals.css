@@ -26,6 +26,13 @@
 	--white2: #fff;
 }
 
+.dark {
+	--black: #fff;
+	--black2: #444;
+	--white: #333;
+	--white2: #444;
+}
+
 /*
     3. Allow percentage-based heights in the application
   */
@@ -242,7 +249,7 @@ h6 {
 		justify-content: center;
 	}
 
-	.imgBx {
+	.workBx {
 		cursor: pointer;
 	}
 
@@ -454,12 +461,13 @@ h6 {
 		width: 100%;
 		height: 300px;
 		overflow: hidden;
+		/* border-radius: 50%; */
 	}
 
 	.projects .content .workBx .imgBx {
 		position: relative;
 		width: 100%;
-		height: 100%;
+		height: 32%;
 		transform: translateY(0);
 		transition: 0.5s ease-in-out;
 	}
@@ -835,7 +843,7 @@ h6 {
 		padding-top: 40px;
 	}
 
-	.title {
+	.title0 {
 		color: #fff;
 		text-transform: uppercase;
 		font-weight: 600;
@@ -912,7 +920,7 @@ h6 {
 		margin-bottom: 50px;
 	}
 
-	.about:last-chid {
+	.about0:last-chid {
 		margin-bottom: 0;
 	}
 
