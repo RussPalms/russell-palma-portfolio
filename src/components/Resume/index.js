@@ -146,7 +146,7 @@ function Resume() {
 									<h4>
 										Information Technology Administrator
 									</h4>
-									<p>
+									<p className="p">
 										Wrote scripts to automate office tasks
 										and eventually went on to redesigning
 										their website.
@@ -160,7 +160,7 @@ function Resume() {
 								</div>
 								<div className="text">
 									<h4>Full Stack Developer</h4>
-									<p>
+									<p className="p">
 										I started off redesigning their main
 										website from the ground up, but
 										eventually went on to contract with them
@@ -175,7 +175,7 @@ function Resume() {
 								</div>
 								<div className="text">
 									<h4>Founder & CEO</h4>
-									<p>
+									<p className="p">
 										This is the company I made due to
 										freelancing nature of my work.
 									</p>
