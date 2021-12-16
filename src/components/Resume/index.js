@@ -25,7 +25,7 @@ function Resume() {
 						</div>
 
 						<div className="contactInfo">
-							<h3 className="title">Contact Info</h3>
+							<h3 className="title0">Contact Info</h3>
 							<ul>
 								<li>
 									<span className="icon">
@@ -84,7 +84,7 @@ function Resume() {
 						</div>
 
 						<div className="contactInfo education">
-							<h3 className="title">Education</h3>
+							<h3 className="title0">Education</h3>
 							<ul>
 								<li>
 									<h5>2015 - 2021</h5>
@@ -98,7 +98,7 @@ function Resume() {
 						</div>
 
 						<div className="contactInfo language">
-							<h3 className="title">Languages</h3>
+							<h3 className="title0">Languages</h3>
 							<ul>
 								<li>
 									<span className="text">English</span>
@@ -119,7 +119,7 @@ function Resume() {
 					<div className="right_Side">
 						<div className="about0">
 							<h2 className="title2">Profile</h2>
-							<p>
+							<p className="p">
 								Initially I went to school to study computer
 								engineer. I love physics, but wanted to dive
 								more into software. After a couple of years of
@@ -245,7 +245,7 @@ function Resume() {
 									<i
 										className="fa fa-music"
 										aria-hidden="true"
-									></i>{" "}
+									></i>
 									EDM
 								</li>
 							</ul>

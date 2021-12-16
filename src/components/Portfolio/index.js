@@ -269,7 +269,7 @@ function Portfolio() {
 							</div>
 							<div className="content">
 								<div className="textBox">
-									<p>
+									<p className="p-4">
 										&emsp; Hello 👋🏾, my name is Russell
 										Brian Fulache Dugaduga Jale (pernounced
 										"hall-ee") Palma. I have a burning
@@ -445,13 +445,13 @@ function Portfolio() {
 									passHref
 								>
 									<div className="workBx">
-										<div className="imgBx">
-											<Image
-												className="object-contain"
-												layout="fill"
-												src="https://assets.turbologo.com/blog/en/2019/10/19084944/youtube-logo-illustration.jpg"
-											/>
-										</div>
+										{/* <div className="imgBx"> */}
+										<Image
+											className="object-contain"
+											layout="fill"
+											src="https://assets.turbologo.com/blog/en/2019/10/19084944/youtube-logo-illustration.jpg"
+										/>
+										{/* </div> */}
 										<div className="textBx">
 											<h3>YouTube</h3>
 										</div>

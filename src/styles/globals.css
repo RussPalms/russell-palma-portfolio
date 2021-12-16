@@ -93,7 +93,7 @@ h6 {
 @layer utilities {
 	font-family: "Poppins", sans-serif;
 
-	:root {
+	/* :root {
 		--black: #333;
 		--black2: #333;
 		--white: #fff;
@@ -105,7 +105,7 @@ h6 {
 		--black2: #444;
 		--white: #333;
 		--white2: #444;
-	}
+	} */
 
 	.body {
 		overflow-x: hidden;
@@ -931,7 +931,7 @@ h6 {
 		margin-bottom: 10px;
 	}
 
-	p {
+	.p {
 		color: #333;
 	}
 
@@ -951,7 +951,7 @@ h6 {
 		font-weight: 600;
 	}
 
-	.about .box .text h4 {
+	.about0 .box .text h4 {
 		text-transform: uppercase;
 		color: #2a7da2;
 		font-size: 16px;
