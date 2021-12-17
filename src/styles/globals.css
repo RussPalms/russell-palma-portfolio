@@ -24,6 +24,7 @@
 	--black2: #333;
 	--white: #fff;
 	--white2: #fff;
+	/* background: var(--white2); */
 }
 
 .dark {
@@ -31,6 +32,9 @@
 	--black2: #444;
 	--white: #333;
 	--white2: #444;
+	/* :root {
+		background: var(--white2);
+	} */
 }
 
 /*
@@ -107,13 +111,18 @@ h6 {
 		--white2: #444;
 	} */
 
-	.body {
-		overflow-x: hidden;
+	.body0 {
+		/* background: var(--white2); */
+		/* overflow-x: hidden; */
+		height: 100%;
+		width: 100%;
 	}
 
 	.container {
 		position: relative;
+		height: 100%;
 		width: 100%;
+		/* background: var(--white2); */
 	}
 
 	.navigation {
@@ -177,11 +186,15 @@ h6 {
 		background: var(--white);
 		min-height: 100vh;
 		transition: width 0.5s, left 0.5s;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.main.active {
-		width: calc(100% - 0px);
+		/* width: calc(100% - 0px); */
 		left: 0px;
+		width: 100%;
+		/* position: relative; */
 	}
 
 	.main .topbar {
@@ -233,6 +246,7 @@ h6 {
 	section {
 		position: relative;
 		min-height: 100vh;
+		min-width: 100%;
 	}
 
 	.banner {
@@ -685,7 +699,39 @@ h6 {
 		content: "Switch To Light Mode";
 	}
 
+	@media (min-width: 1200px) {
+		/* body {
+			min-width: 100%;
+		} */
+		/* .container {
+			width: 100%;
+		}
+		.main {
+			max-width: calc(100vw - 300px);
+		}
+		section {
+			width: 100%;
+		}
+		.body0 {
+			width: 100%;
+		} */
+		/* .topbar.active {
+			left: 0 !important;
+			display: flex;
+			mxn-width: 1200px !important;
+		}
+		.topbar.active .toggle {
+			left: 0;
+		} */
+	}
+
 	@media (max-width: 992px) {
+		/* html {
+			width: -100%;
+		} */
+		.container {
+			max-width: 100%;
+		}
 		.themeSwitch {
 			left: 20px;
 		}
@@ -694,7 +740,12 @@ h6 {
 		}
 		.navigation.active {
 			left: 0;
-			width: 100%;
+			/* width: 100%; */
+			width: 100vw;
+			height: 100%;
+			max-height: 100vh;
+			/* position: absolute;
+			top: -60; */
 		}
 		.main {
 			width: 100%;
@@ -707,6 +758,14 @@ h6 {
 			width: 100%;
 			left: 0;
 			padding: 0 20px;
+		}
+		.main.active .topbar {
+			/* left: 100%; */
+			max-width: 992px;
+			min-width: 320px;
+		}
+		.main.active .topbar .toggle {
+			left: 0 !important;
 		}
 		.navigation ul {
 			padding: 20px 20px;
@@ -740,6 +799,33 @@ h6 {
 		.projects .content {
 			grid-template-columns: repeat(2, 1fr);
 		}
+		/* .topbar.active {
+			left: 0 !important;
+			display: flex;
+			max-width: 992px !important;
+		}
+		.topbar.active .toggle {
+			left: 0;
+		} */
+		/* .main .topbar {
+			max-width: 100vw;
+		}
+		.navigation.active {
+			max-height: 100vh;
+			overflow: hidden;
+		}
+		.main {
+			min-width: 100vw;
+		}
+		.navigation .ul {
+			max-width: 100vw;
+		}
+		section {
+			max-width: 100%;
+		}
+		.topbar {
+			max-width: 100vw;
+		} */
 	}
 
 	@media (max-width: 767px) {
@@ -761,11 +847,63 @@ h6 {
 		.copyright {
 			padding: 10px 20px;
 		}
+		.main.active .topbar {
+			max-width: 767px;
+		}
+		.toggle {
+			left: 0;
+		}
+		/* .topbar.active {
+			left: 0 !important;
+			display: flex;
+			max-width: 767px !important;
+		} */
+		/* .topbar.active .toggle {
+			left: 0;
+		} */
+		/* .main .topbar {
+			max-width: 100vw;
+		}
+		.navigation.active {
+			max-height: 100vh;
+			max-width: 100vw;
+		} */
+	}
+
+	@media (max-width: 320px) {
+		/* .main .topbar {
+			max-width: 100vw;
+		}
+		.navigation.active {
+			max-height: 100vh;
+		} */
+		/* 
+		
+		.topbar.active {
+			left: 0 !important;
+			display: flex;
+			max-width: 320px !important;
+		}
+		.topbar.active .toggle {
+			left: 0;
+		} */
+		/* .navigation.active {
+			height: 100%;
+		} */
+		.main.active .topbar {
+			max-width: 320px;
+		}
+		.topbar {
+			font-size: 0.7em;
+		}
+		.toggle {
+			left: 0;
+		}
 	}
 }
 
 @layer utilities {
-	.body {
+	.body1 {
 		background: lightblue;
 		display: flex;
 		flex-direction: column;

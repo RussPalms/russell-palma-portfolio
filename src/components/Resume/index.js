@@ -3,7 +3,7 @@ import Link from "next/link";
 function Resume() {
 	return (
 		<>
-			<div className="body">
+			<div className="body1">
 				<Link href="/" passHref>
 					<a className="mainWebsite">
 						<i className="fa fa-arrow-left" aria-hidden="true"></i>{" "}

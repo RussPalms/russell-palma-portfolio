@@ -21,24 +21,36 @@ function Portfolio() {
 	// };
 
 	function toggleMenu() {
+		// let body0 = document.querySelector(".body0");
 		let navigation = document.querySelector(".navigation");
+		// let container = document.querySelector(".container");
 		let main = document.querySelector(".main");
+		// let root = document.querySelector(":root");
+		// body0.classList.remove("active");
 		navigation.classList.remove("active");
+		// container.classList.remove("active");
 		main.classList.remove("active");
+		// root.classList.remove("active");
 	}
 
 	useEffect(() => {
 		let toggle = document.querySelector(".toggle");
 		let topbar = document.querySelector(".topbar");
+		// let body0 = document.querySelector(".body0");
 		let navigation = document.querySelector(".navigation");
+		// let container = document.querySelector(".container");
 		let main = document.querySelector(".main");
+		// let root = document.querySelector(":root");
 		let themeSwitch = document.querySelector(".themeSwitch");
-		let body = document.querySelector("body");
+		let body = document.querySelector(".body0");
 		toggle.onclick = function () {
 			toggle.classList.toggle("active");
 			topbar.classList.toggle("active");
+			// body0.classList.toggle("active");
 			navigation.classList.toggle("active");
+			// container.classList.toggle("active");
 			main.classList.toggle("active");
+			// root.classList.toggle("active");
 		};
 
 		themeSwitch.onclick = function () {
@@ -138,7 +150,7 @@ function Portfolio() {
 	};
 	return (
 		<>
-			<div className="">
+			<div className="body0">
 				<div className="container">
 					<div className="navigation">
 						<ul>
@@ -181,8 +193,8 @@ function Portfolio() {
 
 					<div className="main">
 						<div className="topbar">
-							<a href="#" className="logo">
-								Portfolio
+							<a href="#" className="logo flex-nowrap">
+								rPalm's Portfolio
 							</a>
 							<div
 								className="toggle"
