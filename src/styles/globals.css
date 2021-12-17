@@ -870,6 +870,18 @@ h6 {
 		} */
 	}
 
+	@media (min-width: 320px) {
+		.main.active .topbar {
+			max-width: 100vw;
+		}
+		.topbar {
+			font-size: 0.8em;
+		}
+		.toggle {
+			left: 0;
+		}
+	}
+
 	@media (max-width: 320px) {
 		/* .main .topbar {
 			max-width: 100vw;
