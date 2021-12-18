@@ -418,7 +418,8 @@ function Portfolio() {
 												src="https://links.papareact.com/9xl"
 												priority="true"
 											/> */}
-										</div>
+										</div>{" "}
+										SP
 										<div className="textBx">
 											<h3>Spotify</h3>
 										</div>
@@ -435,6 +436,7 @@ function Portfolio() {
 												layout="fill"
 												src="https://logos-world.net/wp-content/uploads/2020/04/Netflix-Logo-700x394.png"
 											/> */}
+											NF
 										</div>
 										<div className="textBx">
 											<h3>Netflix</h3>
@@ -452,6 +454,7 @@ function Portfolio() {
 												layout="fill"
 												src="http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG"
 											/> */}
+											AZ
 										</div>
 										<div className="textBx">
 											<h3>Amazon</h3>
@@ -469,6 +472,7 @@ function Portfolio() {
 												layout="fill"
 												src="https://assets.turbologo.com/blog/en/2019/10/19084944/youtube-logo-illustration.jpg"
 											/> */}
+											YT
 										</div>
 										<div className="textBx">
 											<h3>YouTube</h3>
@@ -486,6 +490,7 @@ function Portfolio() {
 												layout="fill"
 												src="https://assetshuluimcom-a.akamaihd.net/h3o/facebook_share_thumb_default_hulu.jpg"
 											/> */}
+											HU
 										</div>
 										<div className="textBx">
 											<h3>Hulu</h3>
@@ -503,6 +508,7 @@ function Portfolio() {
 												layout="fill"
 												src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
 											/> */}
+											WA
 										</div>
 										<div className="textBx">
 											<h3>WhatsApp</h3>
@@ -520,6 +526,7 @@ function Portfolio() {
 												layout="fill"
 												src="https://repository-images.githubusercontent.com/252413723/e6f28180-8882-11ea-9e76-78d72dfa2af0"
 											/> */}
+											SA
 										</div>
 										<div className="textBx">
 											<h3>Sanity Blog CMS</h3>
@@ -538,6 +545,7 @@ function Portfolio() {
 												layout="fill"
 												src="https://ecstatic-leavitt-a2e426.netlify.app/_next/static/images/logo-dc45e16445beb0dd598e41ae68c69c61.svg"
 											/> */}
+											SL
 										</div>
 										<div className="textBx">
 											<h3>Startup Landing</h3>
@@ -552,6 +560,7 @@ function Portfolio() {
 												layout="fill"
 												src="https://nervous-ramanujan-132263.netlify.app/static/media/svg-3.5f11287c.svg"
 											/> */}
+											DO
 										</div>
 										<div className="textBx">
 											<h3>Dolla</h3>
