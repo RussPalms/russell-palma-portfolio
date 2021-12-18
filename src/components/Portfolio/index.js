@@ -413,8 +413,8 @@ function Portfolio() {
 												src="https://links.papareact.com/9xl"
 												priority="true"
 											/> */}
-									</div>{" "}
-									SP
+										SP
+									</div>
 									<div className="textBx">
 										<h3>Spotify</h3>
 									</div>
