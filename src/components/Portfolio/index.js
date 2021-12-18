@@ -21,49 +21,54 @@ function Portfolio() {
 	// };
 
 	function toggleMenu() {
-		// let body0 = document.querySelector(".body0");
 		let navigation = document.querySelector(".navigation");
-		// let container = document.querySelector(".container");
 		let main = document.querySelector(".main");
-		// let root = document.querySelector(":root");
-		// body0.classList.remove("active");
+		// let topbar = document.querySelector(".topbar");
+		// let toggle = document.querySelector(".toggle");
 		navigation.classList.remove("active");
-		// container.classList.remove("active");
+		// topbar.classList.remove("active");
+		// toggle.classList.remove("active");
 		main.classList.remove("active");
-		// root.classList.remove("active");
+
+		// useEffect(() => {
+		// 	let toggle = document.querySelector(".toggle");
+		// 	let topbar = document.querySelector(".topbar");
+		// 	let navigation = document.querySelector(".navigation");
+		// 	let main = document.querySelector(".main");
+		// 	let themeSwitch = document.querySelector(".themeSwitch");
+		// 	let body = document.querySelector(".body0");
+
+		// 	toggle.onclick = function () {
+		// 		toggle.classList.toggle("active");
+		// 		topbar.classList.toggle("active");
+		// 		navigation.classList.toggle("active");
+		// 		main.classList.toggle("active");
+		// 	};
+
+		// 	themeSwitch.onclick = function () {
+		// 		body.classList.toggle("dark");
+		// 	};
+		// }, []);
 	}
 
 	useEffect(() => {
 		let toggle = document.querySelector(".toggle");
 		let topbar = document.querySelector(".topbar");
-		// let body0 = document.querySelector(".body0");
 		let navigation = document.querySelector(".navigation");
-		// let container = document.querySelector(".container");
 		let main = document.querySelector(".main");
-		// let root = document.querySelector(":root");
 		let themeSwitch = document.querySelector(".themeSwitch");
-		let body = document.querySelector(".body0");
+		let body = document.querySelector("body");
 		toggle.onclick = function () {
-			toggle.classList.toggle("active");
+			// toggle.classList.toggle("active");
 			topbar.classList.toggle("active");
-			// body0.classList.toggle("active");
 			navigation.classList.toggle("active");
-			// container.classList.toggle("active");
 			main.classList.toggle("active");
-			// root.classList.toggle("active");
 		};
 
 		themeSwitch.onclick = function () {
 			body.classList.toggle("dark");
 		};
-
-		// function toggleMenu() {
-		// 	let navigation = document.querySelector(".navigation");
-		// 	let main = document.querySelector(".main");
-		// 	navigation.classList.remove("active");
-		// 	main.classList.remove("active");
-		// }
-	}, []);
+	}, [toggleMenu]);
 
 	const [fullname, setFullname] = useState("");
 	const [email, setEmail] = useState("");
@@ -151,7 +156,7 @@ function Portfolio() {
 	return (
 		<>
 			<div className="body0">
-				<div className="container">
+				<div className="container0">
 					<div className="navigation">
 						<ul>
 							<li>
@@ -396,8 +401,8 @@ function Portfolio() {
 							<div className="title">
 								<h2>Recent Work</h2>
 								<p>
-									Here you'll find a list of a couple of
-									clones and templates I've built out.
+									Checkout some of the clones that I've build
+									out (click links to redirect).
 								</p>
 							</div>
 							<div className="content">
@@ -406,13 +411,14 @@ function Portfolio() {
 									passHref
 								>
 									<div className="workBx">
-										{/* <div className="imgBx"> */}
-										<Image
-											className="object-contain"
-											layout="fill"
-											src="https://links.papareact.com/9xl"
-										/>
-										{/* </div> */}
+										<div className="imgBx">
+											{/* <Image
+												className="object-contain"
+												layout="fill"
+												src="https://links.papareact.com/9xl"
+												priority="true"
+											/> */}
+										</div>
 										<div className="textBx">
 											<h3>Spotify</h3>
 										</div>
@@ -424,11 +430,11 @@ function Portfolio() {
 								>
 									<div className="workBx">
 										<div className="imgBx">
-											<Image
+											{/* <Image
 												className="object-contain"
 												layout="fill"
 												src="https://logos-world.net/wp-content/uploads/2020/04/Netflix-Logo-700x394.png"
-											/>
+											/> */}
 										</div>
 										<div className="textBx">
 											<h3>Netflix</h3>
@@ -441,11 +447,11 @@ function Portfolio() {
 								>
 									<div className="workBx">
 										<div className="imgBx">
-											<Image
+											{/* <Image
 												className="object-contain"
 												layout="fill"
 												src="http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG"
-											/>
+											/> */}
 										</div>
 										<div className="textBx">
 											<h3>Amazon</h3>
@@ -457,13 +463,13 @@ function Portfolio() {
 									passHref
 								>
 									<div className="workBx">
-										{/* <div className="imgBx"> */}
-										<Image
-											className="object-contain"
-											layout="fill"
-											src="https://assets.turbologo.com/blog/en/2019/10/19084944/youtube-logo-illustration.jpg"
-										/>
-										{/* </div> */}
+										<div className="imgBx">
+											{/* <Image
+												className="object-contain"
+												layout="fill"
+												src="https://assets.turbologo.com/blog/en/2019/10/19084944/youtube-logo-illustration.jpg"
+											/> */}
+										</div>
 										<div className="textBx">
 											<h3>YouTube</h3>
 										</div>
@@ -475,11 +481,11 @@ function Portfolio() {
 								>
 									<div className="workBx">
 										<div className="imgBx">
-											<Image
+											{/* <Image
 												className="object-contain"
 												layout="fill"
 												src="https://assetshuluimcom-a.akamaihd.net/h3o/facebook_share_thumb_default_hulu.jpg"
-											/>
+											/> */}
 										</div>
 										<div className="textBx">
 											<h3>Hulu</h3>
@@ -491,13 +497,13 @@ function Portfolio() {
 									passHref
 								>
 									<div className="workBx">
-										{/* <div className="imgBx"> */}
-										<Image
-											className="object-contain"
-											layout="fill"
-											src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-										/>
-										{/* </div> */}
+										<div className="imgBx">
+											{/* <Image
+												className="object-contain"
+												layout="fill"
+												src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+											/> */}
+										</div>
 										<div className="textBx">
 											<h3>WhatsApp</h3>
 										</div>
@@ -509,11 +515,11 @@ function Portfolio() {
 								>
 									<div className="workBx">
 										<div className="imgBx">
-											<Image
+											{/* <Image
 												className="object-contain"
 												layout="fill"
 												src="https://repository-images.githubusercontent.com/252413723/e6f28180-8882-11ea-9e76-78d72dfa2af0"
-											/>
+											/> */}
 										</div>
 										<div className="textBx">
 											<h3>Sanity Blog CMS</h3>
@@ -527,11 +533,11 @@ function Portfolio() {
 								>
 									<div className="workBx">
 										<div className="imgBx">
-											<Image
+											{/* <Image
 												className="object-contain"
 												layout="fill"
 												src="https://ecstatic-leavitt-a2e426.netlify.app/_next/static/images/logo-dc45e16445beb0dd598e41ae68c69c61.svg"
-											/>
+											/> */}
 										</div>
 										<div className="textBx">
 											<h3>Startup Landing</h3>
@@ -540,13 +546,13 @@ function Portfolio() {
 								</Link>
 								<Link href="https://nervous-ramanujan-132263.netlify.app">
 									<div className="workBx">
-										{/* <div className="imgBx"> */}
-										<Image
-											className="object-contain"
-											layout="fill"
-											src="https://nervous-ramanujan-132263.netlify.app/static/media/svg-3.5f11287c.svg"
-										/>
-										{/* </div> */}
+										<div className="imgBx">
+											{/* <Image
+												className="object-contain"
+												layout="fill"
+												src="https://nervous-ramanujan-132263.netlify.app/static/media/svg-3.5f11287c.svg"
+											/> */}
+										</div>
 										<div className="textBx">
 											<h3>Dolla</h3>
 										</div>

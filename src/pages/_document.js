@@ -32,6 +32,10 @@ export default class MyDocument extends Document {
 		return (
 			<Html>
 				<Head />
+				<meta
+					content="width=device-width, initial-scale=1"
+					name="viewport"
+				/>
 				<body>
 					<Main />
 					<NextScript />
