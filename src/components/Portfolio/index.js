@@ -156,175 +156,170 @@ function Portfolio() {
 	return (
 		<>
 			<div className="body0">
-				<div className="container0">
-					<div className="navigation">
-						<ul>
-							<li>
-								<a href="#banner" onClick={toggleMenu}>
-									Home
-								</a>
-							</li>
-							<li>
-								<a href="#about" onClick={toggleMenu}>
-									About
-								</a>
-							</li>
-							{/* <li>
+				{/* <div className="container0"> */}
+				<div className="navigation">
+					<ul>
+						<li>
+							<a href="#banner" onClick={toggleMenu}>
+								Home
+							</a>
+						</li>
+						<li>
+							<a href="#about" onClick={toggleMenu}>
+								About
+							</a>
+						</li>
+						{/* <li>
 								<a href="#services" onClick={toggleMenu}>
 									Services
 								</a>
 							</li> */}
-							<li>
-								<a href="#projects" onClick={toggleMenu}>
-									Projects
-								</a>
-							</li>
-							{/* <li>
+						<li>
+							<a href="#projects" onClick={toggleMenu}>
+								Projects
+							</a>
+						</li>
+						{/* <li>
 								<a href="#testimonials" onClick={toggleMenu}>
 									Testimonials
 								</a>
 							</li> */}
-							<li>
-								<a href="#contact" onClick={toggleMenu}>
-									Contact
-								</a>
-							</li>
-						</ul>
+						<li>
+							<a href="#contact" onClick={toggleMenu}>
+								Contact
+							</a>
+						</li>
+					</ul>
+					<div
+						className="themeSwitch"
+						// onClick={toggleTheme}
+					></div>
+				</div>
+
+				<div className="main">
+					<div className="topbar">
+						<a href="#" className="logo flex-nowrap">
+							rPalm's Portfolio
+						</a>
 						<div
-							className="themeSwitch"
-							// onClick={toggleTheme}
-						></div>
+							className="toggle"
+							// onClick={openNav}
+						>
+							<i className="fa fa-bars" aria-hidden="true"></i>
+						</div>
 					</div>
 
-					<div className="main">
-						<div className="topbar">
-							<a href="#" className="logo flex-nowrap">
-								rPalm's Portfolio
-							</a>
-							<div
-								className="toggle"
-								// onClick={openNav}
-							>
-								<i
-									className="fa fa-bars"
-									aria-hidden="true"
-								></i>
+					<section className="banner" id="banner">
+						<div className="content">
+							<div className="imgBx">
+								<img src="images/user.jpeg" />
+							</div>
+							<h3>Russell Palma</h3>
+							<p>I'm a creative Full Stack Developer.</p>
+							<Link href="/resume" passHref>
+								<a className="btn">Cover Letter</a>
+							</Link>
+
+							<ul className="socialMedia">
+								<Link
+									href="https://www.facebook.com/PinoyWakeboarder"
+									passHref
+								>
+									<li>
+										<a href="#">
+											<i
+												className="fa fa-facebook"
+												aria-hidden="true"
+											></i>
+										</a>
+									</li>
+								</Link>
+								<Link
+									href="https://www.instagram.com/rpalmpinoy/"
+									passHref
+								>
+									<li>
+										<a href="#">
+											<i
+												className="fa fa-instagram"
+												aria-hidden="true"
+											></i>
+										</a>
+									</li>
+								</Link>
+								<Link
+									href="https://www.linkedin.com/in/russell-palma-6b9700b9/"
+									passHref
+								>
+									<li>
+										<a href="#">
+											<i
+												className="fa fa-linkedin"
+												aria-hidden="true"
+											></i>
+										</a>
+									</li>
+								</Link>
+								<Link
+									href="https://twitter.com/rPalmPinoy"
+									passHref
+								>
+									<li>
+										<a href="#">
+											<i
+												className="fa fa-twitter"
+												aria-hidden="true"
+											></i>
+										</a>
+									</li>
+								</Link>
+							</ul>
+						</div>
+					</section>
+
+					<section className="about adjust" id="about">
+						<div className="title">
+							<h2>About Me</h2>
+						</div>
+						<div className="content">
+							<div className="textBox">
+								<p className="p-4">
+									&emsp; Hello 👋🏾, my name is Russell Brian
+									Fulache Dugaduga Jale (pernounced "hall-ee")
+									Palma. I have a burning passion for science,
+									technology, and exploration of both the
+									human mind and of the universe. At the
+									beginning of my academic career I dove into
+									the world of computer engineering and
+									discovered my love for learning about the
+									physics of electronics, but initially didn't
+									realize how much I wanted to know more about
+									the software side of my degree. After a
+									couple years of college I found myself
+									looking more into web technologies. I was
+									very fascinated with this part of the
+									engineering world and jumped at the
+									opportunity of becoming a full stack
+									developer.
+									<br />
+									<br />
+									&emsp; Some of my stretch goals include
+									extending my reach towards software design
+									and implementing machine learning into my
+									workflow. Eventually, I would like to
+									continue my education, transfer the knowlege
+									I gain from freelancing into the world of
+									Quantum Computing, and tackle humanity's
+									most difficult problems.
+								</p>
+							</div>
+							<div className="imgBc">
+								<img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.18169-9/26195481_1766345603383802_3332231310837428390_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_ohc=kYbwS4PNrMAAX9ia1XN&_nc_ht=scontent-lax3-1.xx&oh=00_AT-qVNGJwwZslMSgMG4GTXdePVFeeNIGqbTl91ZNqRb4dQ&oe=61DF5A4C" />
 							</div>
 						</div>
+					</section>
 
-						<section className="banner" id="banner">
-							<div className="content">
-								<div className="imgBx">
-									<img src="images/user.jpeg" />
-								</div>
-								<h3>Russell Palma</h3>
-								<p>I'm a creative Full Stack Developer.</p>
-								<Link href="/resume" passHref>
-									<a className="btn">Cover Letter</a>
-								</Link>
-
-								<ul className="socialMedia">
-									<Link
-										href="https://www.facebook.com/PinoyWakeboarder"
-										passHref
-									>
-										<li>
-											<a href="#">
-												<i
-													className="fa fa-facebook"
-													aria-hidden="true"
-												></i>
-											</a>
-										</li>
-									</Link>
-									<Link
-										href="https://www.instagram.com/rpalmpinoy/"
-										passHref
-									>
-										<li>
-											<a href="#">
-												<i
-													className="fa fa-instagram"
-													aria-hidden="true"
-												></i>
-											</a>
-										</li>
-									</Link>
-									<Link
-										href="https://www.linkedin.com/in/russell-palma-6b9700b9/"
-										passHref
-									>
-										<li>
-											<a href="#">
-												<i
-													className="fa fa-linkedin"
-													aria-hidden="true"
-												></i>
-											</a>
-										</li>
-									</Link>
-									<Link
-										href="https://twitter.com/rPalmPinoy"
-										passHref
-									>
-										<li>
-											<a href="#">
-												<i
-													className="fa fa-twitter"
-													aria-hidden="true"
-												></i>
-											</a>
-										</li>
-									</Link>
-								</ul>
-							</div>
-						</section>
-
-						<section className="about adjust" id="about">
-							<div className="title">
-								<h2>About Me</h2>
-							</div>
-							<div className="content">
-								<div className="textBox">
-									<p className="p-4">
-										&emsp; Hello 👋🏾, my name is Russell
-										Brian Fulache Dugaduga Jale (pernounced
-										"hall-ee") Palma. I have a burning
-										passion for science, technology, and
-										exploration of both the human mind and
-										of the universe. At the beginning of my
-										academic career I dove into the world of
-										computer engineering and discovered my
-										love for learning about the physics of
-										electronics, but initially didn't
-										realize how much I wanted to know more
-										about the software side of my degree.
-										After a couple years of college I found
-										myself looking more into web
-										technologies. I was very fascinated with
-										this part of the engineering world and
-										jumped at the opportunity of becoming a
-										full stack developer.
-										<br />
-										<br />
-										&emsp; Some of my stretch goals include
-										extending my reach towards software
-										design and implementing machine learning
-										into my workflow. Eventually, I would
-										like to continue my education, transfer
-										the knowlege I gain from freelancing
-										into the world of Quantum Computing, and
-										tackle humanity's most difficult
-										problems.
-									</p>
-								</div>
-								<div className="imgBc">
-									<img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.18169-9/26195481_1766345603383802_3332231310837428390_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_ohc=kYbwS4PNrMAAX9ia1XN&_nc_ht=scontent-lax3-1.xx&oh=00_AT-qVNGJwwZslMSgMG4GTXdePVFeeNIGqbTl91ZNqRb4dQ&oe=61DF5A4C" />
-								</div>
-							</div>
-						</section>
-
-						{/* <section className="services adjust" id="services">
+					{/* <section className="services adjust" id="services">
 							<div className="title">
 								<h2>Our Services</h2>
 								<p>
@@ -397,180 +392,180 @@ function Portfolio() {
 							</div>
 						</section> */}
 
-						<section className="projects adjust" id="projects">
-							<div className="title">
-								<h2>Recent Work</h2>
-								<p>
-									Checkout some of the clones that I've build
-									out (click links to redirect).
-								</p>
-							</div>
-							<div className="content">
-								<Link
-									href="https://rpalm-spotify-clone-next.vercel.app/"
-									passHref
-								>
-									<div className="workBx">
-										<div className="imgBx">
-											{/* <Image
+					<section className="projects adjust" id="projects">
+						<div className="title">
+							<h2>Recent Work</h2>
+							<p>
+								Checkout some of the clones that I've build out
+								(click links to redirect).
+							</p>
+						</div>
+						<div className="content">
+							<Link
+								href="https://rpalm-spotify-clone-next.vercel.app/"
+								passHref
+							>
+								<div className="workBx">
+									<div className="imgBx">
+										{/* <Image
 												className="object-contain"
 												layout="fill"
 												src="https://links.papareact.com/9xl"
 												priority="true"
 											/> */}
-										</div>{" "}
-										SP
-										<div className="textBx">
-											<h3>Spotify</h3>
-										</div>
+									</div>{" "}
+									SP
+									<div className="textBx">
+										<h3>Spotify</h3>
 									</div>
-								</Link>
-								<Link
-									href="https://rpalm-netflix-clone--react.web.app/"
-									passHref
-								>
-									<div className="workBx">
-										<div className="imgBx">
-											{/* <Image
+								</div>
+							</Link>
+							<Link
+								href="https://rpalm-netflix-clone--react.web.app/"
+								passHref
+							>
+								<div className="workBx">
+									<div className="imgBx">
+										{/* <Image
 												className="object-contain"
 												layout="fill"
 												src="https://logos-world.net/wp-content/uploads/2020/04/Netflix-Logo-700x394.png"
 											/> */}
-											NF
-										</div>
-										<div className="textBx">
-											<h3>Netflix</h3>
-										</div>
+										NF
 									</div>
-								</Link>
-								<Link
-									href="https://amazon-clone-react-kappa.vercel.app/"
-									passHref
-								>
-									<div className="workBx">
-										<div className="imgBx">
-											{/* <Image
+									<div className="textBx">
+										<h3>Netflix</h3>
+									</div>
+								</div>
+							</Link>
+							<Link
+								href="https://amazon-clone-react-kappa.vercel.app/"
+								passHref
+							>
+								<div className="workBx">
+									<div className="imgBx">
+										{/* <Image
 												className="object-contain"
 												layout="fill"
 												src="http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG"
 											/> */}
-											AZ
-										</div>
-										<div className="textBx">
-											<h3>Amazon</h3>
-										</div>
+										AZ
 									</div>
-								</Link>
-								<Link
-									href="https://rpalm-yt-clone--react.web.app/"
-									passHref
-								>
-									<div className="workBx">
-										<div className="imgBx">
-											{/* <Image
+									<div className="textBx">
+										<h3>Amazon</h3>
+									</div>
+								</div>
+							</Link>
+							<Link
+								href="https://rpalm-yt-clone--react.web.app/"
+								passHref
+							>
+								<div className="workBx">
+									<div className="imgBx">
+										{/* <Image
 												className="object-contain"
 												layout="fill"
 												src="https://assets.turbologo.com/blog/en/2019/10/19084944/youtube-logo-illustration.jpg"
 											/> */}
-											YT
-										</div>
-										<div className="textBx">
-											<h3>YouTube</h3>
-										</div>
+										YT
 									</div>
-								</Link>
-								<Link
-									href="https://huluclone-react.vercel.app/"
-									passHref
-								>
-									<div className="workBx">
-										<div className="imgBx">
-											{/* <Image
+									<div className="textBx">
+										<h3>YouTube</h3>
+									</div>
+								</div>
+							</Link>
+							<Link
+								href="https://huluclone-react.vercel.app/"
+								passHref
+							>
+								<div className="workBx">
+									<div className="imgBx">
+										{/* <Image
 												className="object-contain"
 												layout="fill"
 												src="https://assetshuluimcom-a.akamaihd.net/h3o/facebook_share_thumb_default_hulu.jpg"
 											/> */}
-											HU
-										</div>
-										<div className="textBx">
-											<h3>Hulu</h3>
-										</div>
+										HU
 									</div>
-								</Link>
-								<Link
-									href="https://whats-app-clone-react.vercel.app/"
-									passHref
-								>
-									<div className="workBx">
-										<div className="imgBx">
-											{/* <Image
+									<div className="textBx">
+										<h3>Hulu</h3>
+									</div>
+								</div>
+							</Link>
+							<Link
+								href="https://whats-app-clone-react.vercel.app/"
+								passHref
+							>
+								<div className="workBx">
+									<div className="imgBx">
+										{/* <Image
 												className="object-contain"
 												layout="fill"
 												src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
 											/> */}
-											WA
-										</div>
-										<div className="textBx">
-											<h3>WhatsApp</h3>
-										</div>
+										WA
 									</div>
-								</Link>
-								<Link
-									href="https://russellportfolio.netlify.app"
-									passHref
-								>
-									<div className="workBx">
-										<div className="imgBx">
-											{/* <Image
+									<div className="textBx">
+										<h3>WhatsApp</h3>
+									</div>
+								</div>
+							</Link>
+							<Link
+								href="https://russellportfolio.netlify.app"
+								passHref
+							>
+								<div className="workBx">
+									<div className="imgBx">
+										{/* <Image
 												className="object-contain"
 												layout="fill"
 												src="https://repository-images.githubusercontent.com/252413723/e6f28180-8882-11ea-9e76-78d72dfa2af0"
 											/> */}
-											SA
-										</div>
-										<div className="textBx">
-											<h3>Sanity Blog CMS</h3>
-										</div>
+										SA
 									</div>
-								</Link>
-								<Link
-									className="cursor-pointer"
-									href="https://ecstatic-leavitt-a2e426.netlify.app"
-									passHref
-								>
-									<div className="workBx">
-										<div className="imgBx">
-											{/* <Image
+									<div className="textBx">
+										<h3>Sanity Blog CMS</h3>
+									</div>
+								</div>
+							</Link>
+							<Link
+								className="cursor-pointer"
+								href="https://ecstatic-leavitt-a2e426.netlify.app"
+								passHref
+							>
+								<div className="workBx">
+									<div className="imgBx">
+										{/* <Image
 												className="object-contain"
 												layout="fill"
 												src="https://ecstatic-leavitt-a2e426.netlify.app/_next/static/images/logo-dc45e16445beb0dd598e41ae68c69c61.svg"
 											/> */}
-											SL
-										</div>
-										<div className="textBx">
-											<h3>Startup Landing</h3>
-										</div>
+										SL
 									</div>
-								</Link>
-								<Link href="https://nervous-ramanujan-132263.netlify.app">
-									<div className="workBx">
-										<div className="imgBx">
-											{/* <Image
+									<div className="textBx">
+										<h3>Startup Landing</h3>
+									</div>
+								</div>
+							</Link>
+							<Link href="https://nervous-ramanujan-132263.netlify.app">
+								<div className="workBx">
+									<div className="imgBx">
+										{/* <Image
 												className="object-contain"
 												layout="fill"
 												src="https://nervous-ramanujan-132263.netlify.app/static/media/svg-3.5f11287c.svg"
 											/> */}
-											DO
-										</div>
-										<div className="textBx">
-											<h3>Dolla</h3>
-										</div>
+										DO
 									</div>
-								</Link>
-							</div>
-						</section>
+									<div className="textBx">
+										<h3>Dolla</h3>
+									</div>
+								</div>
+							</Link>
+						</div>
+					</section>
 
-						{/* <section
+					{/* <section
 							className="testimonials adjust"
 							id="testimonials"
 						>
@@ -690,21 +685,17 @@ function Portfolio() {
 							</div>
 						</section> */}
 
-						<section className="contact adjust" id="contact">
-							<div className="title">
-								<h2>Let's Say Hi</h2>
-								<p>
-									Feel free to contact me. Just leave your
-									details and I'll get back to you as soon as
-									I can.
-								</p>
-							</div>
-							<form
-								className="contactForm"
-								onSubmit={handleSubmit}
-							>
-								<div className="row">
-									{/* <input
+					<section className="contact adjust" id="contact">
+						<div className="title">
+							<h2>Let's Say Hi</h2>
+							<p>
+								Feel free to contact me. Just leave your details
+								and I'll get back to you as soon as I can.
+							</p>
+						</div>
+						<form className="contactForm" onSubmit={handleSubmit}>
+							<div className="row">
+								{/* <input
                                     htmlFor="fullname"
 										type="text"
 										name=""
@@ -715,70 +706,68 @@ function Portfolio() {
 										name=""
 										placeholder="Last Name"
 									/> */}
-									<input
-										type="text"
-										value={fullname}
-										onChange={(e) => {
-											setFullname(e.target.value);
-										}}
-										name="fullname"
-										placeholder="Enter Your Full Name"
-									/>
-									{errors?.fullname}
-								</div>
-								<div className="row">
-									<input
-										type="text"
-										name="email"
-										value={email}
-										onChange={(e) => {
-											setEmail(e.target.value);
-										}}
-										placeholder="Enter Your E-Mail"
-									/>
-									{errors?.email}
-									{/* <input
+								<input
+									type="text"
+									value={fullname}
+									onChange={(e) => {
+										setFullname(e.target.value);
+									}}
+									name="fullname"
+									placeholder="Enter Your Full Name"
+								/>
+								{errors?.fullname}
+							</div>
+							<div className="row">
+								<input
+									type="text"
+									name="email"
+									value={email}
+									onChange={(e) => {
+										setEmail(e.target.value);
+									}}
+									placeholder="Enter Your E-Mail"
+								/>
+								{errors?.email}
+								{/* <input
 										type="text"
 										name=""
 										placeholder="Mobile #"
 									/> */}
-									<input
-										type="text"
-										name="subject"
-										value={subject}
-										onChange={(e) => {
-											setSubject(e.target.value);
-										}}
-										placeholder="Subject"
-									/>
-									{errors?.subject}
-								</div>
-								<div className="row2">
-									<textarea
-										type="text"
-										name="message"
-										value={message}
-										onChange={(e) => {
-											setMessage(e.target.value);
-										}}
-										placeholder="Type Your Message Here"
-									>
-										{errors?.message}
-									</textarea>
-								</div>
-								<div className="row2">
-									<input type="submit" value="Send" />
-								</div>
-							</form>
-						</section>
+								<input
+									type="text"
+									name="subject"
+									value={subject}
+									onChange={(e) => {
+										setSubject(e.target.value);
+									}}
+									placeholder="Subject"
+								/>
+								{errors?.subject}
+							</div>
+							<div className="row2">
+								<textarea
+									type="text"
+									name="message"
+									value={message}
+									onChange={(e) => {
+										setMessage(e.target.value);
+									}}
+									placeholder="Type Your Message Here"
+								>
+									{errors?.message}
+								</textarea>
+							</div>
+							<div className="row2">
+								<input type="submit" value="Send" />
+							</div>
+						</form>
+					</section>
 
-						<div className="copyright">
-							<p>
-								Copyright © 2021 PalmaView. All Rights Reserved.
-							</p>
-						</div>
+					<div className="copyright">
+						<p>Copyright © 2021 PalmaView. All Rights Reserved.</p>
 					</div>
 				</div>
+				{/* </div> */}
 			</div>
 		</>
 	);
