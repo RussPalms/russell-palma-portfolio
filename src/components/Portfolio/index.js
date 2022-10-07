@@ -8,6 +8,7 @@ import Services from "./Services";
 import Testimonials from "./Testimonials";
 import Link from "next/link";
 import Image from "next/image";
+import { ConditionalButton } from "./PortfolioElements";
 
 function Portfolio() {
 	// const [isOpen, setIsOpen] = useState(true);
@@ -314,7 +315,7 @@ function Portfolio() {
 								</p>
 							</div>
 							<div className="imgBc">
-								<img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.18169-9/26195481_1766345603383802_3332231310837428390_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_ohc=kYbwS4PNrMAAX9ia1XN&_nc_ht=scontent-lax3-1.xx&oh=00_AT-qVNGJwwZslMSgMG4GTXdePVFeeNIGqbTl91ZNqRb4dQ&oe=61DF5A4C" />
+								<img src="me.jpg" />
 							</div>
 						</div>
 					</section>

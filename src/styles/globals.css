@@ -293,6 +293,7 @@ h6 {
 	}
 
 	.banner .imgBx {
+		text-align: center;
 		position: relative;
 		width: 300px;
 		height: 300px;
