@@ -217,8 +217,8 @@ function Portfolio() {
 							</div>
 							<h3>Russell Palma</h3>
 							<p>I'm a creative Full Stack Developer.</p>
-							<Link href="/resume" passHref>
-								<a className="btn">Cover Letter</a>
+							<Link className="btn" href="/resume" passHref>
+								Cover Letter
 							</Link>
 
 							<ul className="socialMedia">
@@ -227,12 +227,11 @@ function Portfolio() {
 									passHref
 								>
 									<li>
-										<a href="#">
-											<i
-												className="fa fa-facebook"
-												aria-hidden="true"
-											></i>
-										</a>
+										<i
+											href="#"
+											className="fa fa-facebook"
+											aria-hidden="true"
+										></i>
 									</li>
 								</Link>
 								<Link
@@ -240,12 +239,11 @@ function Portfolio() {
 									passHref
 								>
 									<li>
-										<a href="#">
-											<i
-												className="fa fa-instagram"
-												aria-hidden="true"
-											></i>
-										</a>
+										<i
+											href="#"
+											className="fa fa-instagram"
+											aria-hidden="true"
+										></i>
 									</li>
 								</Link>
 								<Link
@@ -253,12 +251,11 @@ function Portfolio() {
 									passHref
 								>
 									<li>
-										<a href="#">
-											<i
-												className="fa fa-linkedin"
-												aria-hidden="true"
-											></i>
-										</a>
+										<i
+											href="#"
+											className="fa fa-linkedin"
+											aria-hidden="true"
+										></i>
 									</li>
 								</Link>
 								<Link
@@ -266,12 +263,11 @@ function Portfolio() {
 									passHref
 								>
 									<li>
-										<a href="#">
-											<i
-												className="fa fa-twitter"
-												aria-hidden="true"
-											></i>
-										</a>
+										<i
+											href="#"
+											className="fa fa-twitter"
+											aria-hidden="true"
+										></i>
 									</li>
 								</Link>
 							</ul>

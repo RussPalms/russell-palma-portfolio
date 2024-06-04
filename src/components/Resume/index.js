@@ -4,11 +4,9 @@ function Resume() {
 	return (
 		<>
 			<div className="body1">
-				<Link href="/" passHref>
-					<a className="mainWebsite">
-						<i className="fa fa-arrow-left" aria-hidden="true"></i>{" "}
-						Back to main website
-					</a>
+				<Link className="mainWebsite" href="/" passHref>
+					<i className="fa fa-arrow-left" aria-hidden="true"></i> Back
+					to main website
 				</Link>
 
 				<div className="container0">
