@@ -76,11 +76,11 @@ async function sendEmail(req, res) {
 	// );
 
 	const msg = {
-		to: email,
+		to: "connect@mail.driptrace.io",
 		from: "connect@mail.driptrace.io", // Use the email address or domain you verified above
 		subject: subject,
 		text: message,
-		html: "<strong>and easy to do anywhere, even with Node.js</strong>",
+		html: `<strong>from ${email}</strong>`,
 	};
 
 	try {
