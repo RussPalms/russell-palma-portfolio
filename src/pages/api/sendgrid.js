@@ -76,8 +76,8 @@ async function sendEmail(req, res) {
 	// );
 
 	const msg = {
-		to: "connect@mail.driptrace.io",
-		from: "connect@mail.driptrace.io", // Use the email address or domain you verified above
+		to: "me@russellpalma.com",
+		from: "no-reply@mail.driptrace.io", // Use the email address or domain you verified above
 		subject: subject,
 		text: message,
 		html: `<strong>from ${email}</strong>`,
@@ -177,7 +177,9 @@ async function sendEmail(req, res) {
 		// }
 	} catch (error) {
 		console.log("Error:", error);
-		return res.status(500).json({ error: "Internal server error" });
+		return res
+			.status(500)
+			.json({ error: `Internal server error: ${error}` });
 	}
 }
 

@@ -10,6 +10,7 @@ module.exports = {
 			"logos-world.net",
 			"media.corporate-ir.net",
 			"assets.turbologo.com",
+			"russpalms.github.io",
 		],
 	},
 };
