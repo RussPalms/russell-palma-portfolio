@@ -281,7 +281,7 @@ function Portfolio() {
                         </div>
                         <div className="content">
                             <div className="textBox">
-                                <p className="p-4">
+                                {/* <p className="p-4">
                                     &emsp; Hello 👋🏾, my name is Russell Brian
                                     Fulache Dugaduga Jale (pernounced "hall-ee")
                                     Palma. I have a burning passion for science,
@@ -309,7 +309,40 @@ function Portfolio() {
                                     I gain from freelancing into the world of
                                     Quantum Computing, and tackle humanity's
                                     most difficult problems.
+                                </p> */}
+
+                                <p className="p-4">
+                                    &emsp; Hello 👋🏾, my name is Russell Brian Fulache Dugaduga Jale (pronounced "hall-ee") Palma.
+                                    I’m a <strong>Full-Stack Developer</strong> and <strong>DevOps Engineer</strong> with a passion
+                                    for science, technology, and exploring both the intricacies of the human mind and the vast expanse
+                                    of the universe.
+                                    <br /><br />
+                                    &emsp; My journey began with a strong foundation in <strong>computer engineering</strong>, where I
+                                    developed a fascination with the physics of electronics. However, as my academic career progressed,
+                                    I discovered my true passion for <strong>software development</strong>. This realization led me to
+                                    immerse myself in <strong>web technologies</strong>, where I found the perfect blend of creativity
+                                    and problem-solving in becoming a <strong>full-stack developer</strong>.
+                                    <br /><br />
+                                    &emsp; Throughout my career, I&apos;ve worked with diverse clients, solving real-world problems through
+                                    cutting-edge solutions. From integrating AI into healthcare systems to designing decentralized platforms
+                                    for the blockchain industry, I&apos;ve honed my skills in building robust, scalable solutions that drive impact.
+                                    <br /><br />
+                                    &emsp; My <strong>current focus</strong> includes:<br />
+                                    <ul>
+                                        <li>Implementing <strong>AI integration</strong> to enhance user experiences, particularly in healthcare and automation.</li>
+                                        <li>Building <strong>blockchain & Web3 applications</strong>, including decentralized platforms and NFT marketplaces.</li>
+                                        <li>Designing and deploying scalable, secure systems with <strong>DevOps tools</strong> like Docker, Kubernetes, and CI/CD pipelines.</li>
+                                    </ul>
+                                    <br />
+                                    &emsp; Some of my <strong>future goals</strong> include advancing my expertise in <strong>software design</strong>
+                                    and deeply integrating <strong>machine learning</strong> into my projects. Ultimately, I aim to transition my
+                                    knowledge and experience into the field of <strong>Quantum Computing</strong>, leveraging this transformative
+                                    technology to address humanity&apos;s most complex challenges.
+                                    <br /><br />
+                                    &emsp; If you&apos;re looking for someone passionate about <strong>innovation, exploration, and building impactful solutions</strong>,
+                                    I&apos;d love to connect! Let&apos;s build the future together.
                                 </p>
+
                             </div>
                             <div className="imgBc">
                                 {/* <img src="me.jpg" /> */}
