@@ -312,7 +312,8 @@ function Portfolio() {
                                 </p>
                             </div>
                             <div className="imgBc">
-                                <img src="me.jpg" />
+                                {/* <img src="me.jpg" /> */}
+                                <img src="https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/118153913_3486454418039570_7640260516213792973_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=LDCi_yhhs-gQ7kNvgGVBXsJ&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=AB1B-IQFNbetLrOaZSmYhv5&oh=00_AYC4CrUytZR218xx7iVmDZHlWtmhEtfi-S-fq1ZpElL49w&oe=67758E1E"
                             </div>
                         </div>
                     </section>
@@ -555,7 +556,7 @@ function Portfolio() {
 												layout="fill"
 												src="https://assetshuluimcom-a.akamaihd.net/h3o/facebook_share_thumb_default_hulu.jpg"
 											/> */}
-                            HU
+                            {/* HU */}
                             {/* </div>
 									<div className="textBx">
 										<h3>Hulu</h3>
@@ -591,7 +592,7 @@ function Portfolio() {
 												layout="fill"
 												src="https://repository-images.githubusercontent.com/252413723/e6f28180-8882-11ea-9e76-78d72dfa2af0"
 											/> */}
-                            SA
+                            {/* SA */}
                             {/* </div>
 									<div className="textBx">
 										<h3>Sanity Blog CMS</h3>
@@ -610,7 +611,7 @@ function Portfolio() {
 												layout="fill"
 												src="https://ecstatic-leavitt-a2e426.netlify.app/_next/static/images/logo-dc45e16445beb0dd598e41ae68c69c61.svg"
 											/> */}
-                            SL
+                            {/* SL */}
                             {/* </div>
 									<div className="textBx">
 										<h3>Startup Landing</h3>
