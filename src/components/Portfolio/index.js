@@ -312,8 +312,8 @@ function Portfolio() {
                                 </p> */}
 
                                 <p className="p-4">
-                                    &emsp; Hello 👋🏾, my name is Russell Brian Fulache Dugaduga Jale (pronounced "hall-ee") Palma.
-                                    I’m a <strong>Full-Stack Developer</strong> and <strong>DevOps Engineer</strong> with a passion
+                                    &emsp; Hello 👋🏾, my name is Russell Brian Fulache Dugaduga Jale (pronounced &quot;hall-ee&quot;) Palma.
+                                    I&apos;m a <strong>Full-Stack Developer</strong> and <strong>DevOps Engineer</strong> with a passion
                                     for science, technology, and exploring both the intricacies of the human mind and the vast expanse
                                     of the universe.
                                     <br /><br />
