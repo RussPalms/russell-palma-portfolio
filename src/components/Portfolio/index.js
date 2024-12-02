@@ -313,7 +313,7 @@ function Portfolio() {
                             </div>
                             <div className="imgBc">
                                 {/* <img src="me.jpg" /> */}
-                                <img src="https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/118153913_3486454418039570_7640260516213792973_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=LDCi_yhhs-gQ7kNvgGVBXsJ&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=AB1B-IQFNbetLrOaZSmYhv5&oh=00_AYC4CrUytZR218xx7iVmDZHlWtmhEtfi-S-fq1ZpElL49w&oe=67758E1E"
+                                <img src="https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/118153913_3486454418039570_7640260516213792973_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=LDCi_yhhs-gQ7kNvgGVBXsJ&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=AB1B-IQFNbetLrOaZSmYhv5&oh=00_AYC4CrUytZR218xx7iVmDZHlWtmhEtfi-S-fq1ZpElL49w&oe=67758E1E" />
                             </div>
                         </div>
                     </section>
