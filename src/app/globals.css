@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,700,800&display=swap");
-
-@tailwind base;
-@tailwind components;
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap");
+@import "tailwindcss";
 
 /*
 1. Use a more-intuitive box-sizing model.
@@ -92,10 +90,10 @@ h6 {
 #__next {
 	isolation: isolate;
 }
-@tailwind utilities;
-
 @layer utilities {
-	font-family: "Poppins", sans-serif;
+	body {
+		font-family: "Poppins", sans-serif;
+	}
 
 	/* :root {
 		--black: #333;
@@ -1143,7 +1141,7 @@ h6 {
 		margin-bottom: 50px;
 	}
 
-	.about0:last-chid {
+	.about0:last-child {
 		margin-bottom: 0;
 	}
 
